@@ -1,0 +1,16 @@
+title: Home
+views:
+  - badges: null
+    cards:
+      - entity: weather.home
+        type: weather-forecast
+      - entity: light.light
+        hold_action:
+          action: more-info
+        show_icon: true
+        show_name: true
+        tap_action:
+          action: toggle
+        type: entity-button
+    path: default_view
+    title: Home
